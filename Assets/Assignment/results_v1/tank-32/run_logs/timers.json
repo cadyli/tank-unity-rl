@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1731286831",
+        "python_version": "3.10.12 (main, Jul  5 2023, 15:02:25) [Clang 14.0.6 ]",
+        "command_line_arguments": "/Users/cadyli/miniconda3/envs/mlagents/bin/mlagents-learn configs/tank-configs.yaml --run-id=tank-32",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.5.0",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1731286852"
+    },
+    "total": 20.910911957999815,
+    "count": 1,
+    "self": 0.016683373999512696,
+    "children": {
+        "run_training.setup": {
+            "total": 0.04563133400006336,
+            "count": 1,
+            "self": 0.04563133400006336
+        },
+        "TrainerController.start_learning": {
+            "total": 20.84859725000024,
+            "count": 1,
+            "self": 0.0011485420000099111,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 20.84734974999992,
+                    "count": 1,
+                    "self": 20.84734974999992
+                },
+                "trainer_threads": {
+                    "total": 1.5830000847927295e-06,
+                    "count": 1,
+                    "self": 1.5830000847927295e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 9.737500022310996e-05,
+                    "count": 1,
+                    "self": 9.737500022310996e-05
+                }
+            }
+        }
+    }
+}

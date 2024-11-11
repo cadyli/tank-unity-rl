@@ -1,0 +1,29 @@
+{
+    "tank-optimized-01": {
+        "checkpoints": [
+            {
+                "steps": 67317,
+                "file_path": "results/tank-25/tank-optimized-01/tank-optimized-01-67317.onnx",
+                "reward": null,
+                "creation_time": 1731244753.9056551,
+                "auxillary_file_paths": [
+                    "results/tank-25/tank-optimized-01/tank-optimized-01-67317.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 67317,
+            "file_path": "results/tank-25/tank-optimized-01.onnx",
+            "reward": null,
+            "creation_time": 1731244753.9056551,
+            "auxillary_file_paths": [
+                "results/tank-25/tank-optimized-01/tank-optimized-01-67317.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.5.0"
+    }
+}

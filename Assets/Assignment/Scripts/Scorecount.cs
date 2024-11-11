@@ -13,6 +13,7 @@ public class Scorecount : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        score.text = TankAgent.Score.ToString();
         // score.text = AItank.Getscore().ToString();
     }
 }
